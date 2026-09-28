@@ -52,7 +52,7 @@ Top enterprise and mid-market SaaS platforms offering multi-carrier shipping API
 
 ## 💻 Open-Source GitHub Projects
 
-Self-hostable shipping APIs, carrier SDKs, and open-source logistics platforms for rate calculation, label printing, and package tracking without recurring SaaS fees. Sorted by GitHub Stars_Count descending.
+Self-hostable shipping APIs, carrier SDKs, and open-source logistics platforms for rate calculation, label printing, and package tracking without recurring SaaS fees. Sorted by GitHub_Stars_Count descending.
 
 - [![GitHub_Stars](https://img.shields.io/github/stars/fleetbase/fleetbase?style=social&color=white)](https://github.com/fleetbase/fleetbase/stargazers) **[Fleetbase](https://github.com/fleetbase/fleetbase)** — Open-source modular logistics, dispatch, and supply chain API infrastructure for fleet management and shipping workflows.
 - [![GitHub_Stars](https://img.shields.io/github/stars/karrioapi/karrio?style=social&color=white)](https://github.com/karrioapi/karrio/stargazers) **[Karrio](https://github.com/karrioapi/karrio)** — Leading open-source multi-carrier shipping API engine (formerly Purplship). Self-hostable platform for rates, label printing, tracking, and carrier integration.
