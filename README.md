@@ -52,14 +52,14 @@ Top enterprise and mid-market SaaS platforms offering multi-carrier shipping API
 
 ## 💻 Open-Source GitHub Projects
 
-Self-hostable shipping APIs, carrier SDKs, and open-source logistics platforms for rate calculation, label printing, and package tracking without recurring SaaS fees. Sorted by GitHub star count descending.
+Self-hostable shipping APIs, carrier SDKs, and open-source logistics platforms for rate calculation, label printing, and package tracking without recurring SaaS fees. Sorted by GitHub Stars_Count descending.
 
-- [![GitHub stars](https://img.shields.io/github/stars/fleetbase/fleetbase?style=social&color=white)](https://github.com/fleetbase/fleetbase/stargazers) **[Fleetbase](https://github.com/fleetbase/fleetbase)** — Open-source modular logistics, dispatch, and supply chain API infrastructure for fleet management and shipping workflows.
-- [![GitHub stars](https://img.shields.io/github/stars/karrioapi/karrio?style=social&color=white)](https://github.com/karrioapi/karrio/stargazers) **[Karrio](https://github.com/karrioapi/karrio)** — Leading open-source multi-carrier shipping API engine (formerly Purplship). Self-hostable platform for rates, label printing, tracking, and carrier integration.
-- [![GitHub stars](https://img.shields.io/github/stars/openboxes/openboxes?style=social&color=white)](https://github.com/openboxes/openboxes/stargazers) **[OpenBoxes](https://github.com/openboxes/openboxes)** — Open-source inventory management and supply chain fulfillment system supporting order dispatch and parcel tracking.
-- [![GitHub stars](https://img.shields.io/github/stars/quafzi/magento-carrier-preselect?style=social&color=white)](https://github.com/quafzi/magento-carrier-preselect/stargazers) **[Magento Carrier Preselect](https://github.com/quafzi/magento-carrier-preselect)** — Open-source Magento extension for automated ecommerce carrier selection and shipping rate routing.
-- [![GitHub stars](https://img.shields.io/github/stars/verbb/shippy?style=social&color=white)](https://github.com/verbb/shippy/stargazers) **[Shippy](https://github.com/verbb/shippy)** — Framework-agnostic multi-carrier shipping library for PHP offering unified rate shopping and label abstractions.
-- [![GitHub stars](https://img.shields.io/github/stars/EzeeSpace/purplship?style=social&color=white)](https://github.com/EzeeSpace/purplship/stargazers) **[Purplship](https://github.com/EzeeSpace/purplship)** — Multi-carrier shipping SDK and integration platform (historical core foundation of Karrio).
+- [![GitHub_Stars](https://img.shields.io/github/stars/fleetbase/fleetbase?style=social&color=white)](https://github.com/fleetbase/fleetbase/stargazers) **[Fleetbase](https://github.com/fleetbase/fleetbase)** — Open-source modular logistics, dispatch, and supply chain API infrastructure for fleet management and shipping workflows.
+- [![GitHub_Stars](https://img.shields.io/github/stars/karrioapi/karrio?style=social&color=white)](https://github.com/karrioapi/karrio/stargazers) **[Karrio](https://github.com/karrioapi/karrio)** — Leading open-source multi-carrier shipping API engine (formerly Purplship). Self-hostable platform for rates, label printing, tracking, and carrier integration.
+- [![GitHub_Stars](https://img.shields.io/github/stars/openboxes/openboxes?style=social&color=white)](https://github.com/openboxes/openboxes/stargazers) **[OpenBoxes](https://github.com/openboxes/openboxes)** — Open-source inventory management and supply chain fulfillment system supporting order dispatch and parcel tracking.
+- [![GitHub_Stars](https://img.shields.io/github/stars/quafzi/magento-carrier-preselect?style=social&color=white)](https://github.com/quafzi/magento-carrier-preselect/stargazers) **[Magento Carrier Preselect](https://github.com/quafzi/magento-carrier-preselect)** — Open-source Magento extension for automated ecommerce carrier selection and shipping rate routing.
+- [![GitHub_Stars](https://img.shields.io/github/stars/verbb/shippy?style=social&color=white)](https://github.com/verbb/shippy/stargazers) **[Shippy](https://github.com/verbb/shippy)** — Framework-agnostic multi-carrier shipping library for PHP offering unified rate shopping and label abstractions.
+- [![GitHub_Stars](https://img.shields.io/github/stars/EzeeSpace/purplship?style=social&color=white)](https://github.com/EzeeSpace/purplship/stargazers) **[Purplship](https://github.com/EzeeSpace/purplship)** — Multi-carrier shipping SDK and integration platform (historical core foundation of Karrio).
 
 ---
 
@@ -69,7 +69,7 @@ Contributions are welcome! Please follow these steps to add or update carrier ma
 
 1. 🍴 Fork the repository.
 2. 📝 Add/edit entries in `README.md` following the table or list format.
-3. 🔍 Provide accurate data regarding pricing, free limits, or open-source star badges.
+3. 🔍 Provide accurate data regarding pricing, free limits, or open-source Stars_Badges.
 4. 🚀 Submit a Pull Request with a short summary of changes.
 
 ---
