@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="50%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="50%" stop-color="#818cf8"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.07"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.02"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)"/>
+  <rect width="1200" height="360" rx="16" fill="none" stroke="#334155" stroke-width="2"/>
+
+  <!-- Background Dynamic Flow Lines / Connections (Lower layer) -->
+  <g opacity="0.25">
+    <path d="M 100 280 Q 300 220 600 280 T 1100 250" fill="none" stroke="#38bdf8" stroke-width="3" stroke-dasharray="10 6">
+      <animate attributeName="stroke-dashoffset" from="100" to="0" dur="8s" repeatCount="indefinite"/>
+    </path>
+    <path d="M 50 310 Q 400 200 800 310 T 1150 280" fill="none" stroke="#818cf8" stroke-width="2" stroke-dasharray="6 6">
+      <animate attributeName="stroke-dashoffset" from="0" to="100" dur="12s" repeatCount="indefinite"/>
+    </path>
+    <circle cx="200" cy="260" r="4" fill="#38bdf8">
+      <animate attributeName="cy" values="260;250;260" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="280" r="5" fill="#818cf8">
+      <animate attributeName="cy" values="280;290;280" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="950" cy="260" r="4" fill="#c084fc">
+      <animate attributeName="cy" values="260;250;260" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
+  <!-- Background Animated Carrier Status Badges/Pills (Lower Z-index, blurred/subtle) -->
+  <g transform="translate(100, 240)" opacity="0.6">
+    <rect width="180" height="36" rx="18" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1"/>
+    <text x="90" y="23" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">📦 Rate Shopping</text>
+  </g>
+
+  <g transform="translate(510, 250)" opacity="0.6">
+    <rect width="180" height="36" rx="18" fill="url(#cardGrad)" stroke="#818cf8" stroke-width="1"/>
+    <text x="90" y="23" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">🏷️ Multi-Carrier APIs</text>
+  </g>
+
+  <g transform="translate(920, 240)" opacity="0.6">
+    <rect width="180" height="36" rx="18" fill="url(#cardGrad)" stroke="#c084fc" stroke-width="1"/>
+    <text x="90" y="23" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">🚚 Tracking &amp; Returns</text>
+  </g>
+
+  <!-- Foreground Main Title & Subtitle (High contrast, clearly visible) -->
+  <g transform="translate(600, 115)" text-anchor="middle">
+    <!-- Main Title -->
+    <text y="0" fill="url(#textGrad)" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="44" letter-spacing="0.5" filter="url(#glow)">
+      Awesome Carrier Management Platform 🚚
+    </text>
+    
+    <!-- Subtitle -->
+    <text y="50" fill="#f8fafc" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="20">
+      Multi-Carrier Shipping APIs • Rate Shopping • Tracking • Logistics Orchestration
+    </text>
+
+    <!-- Tagline -->
+    <text y="82" fill="#94a3b8" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="15">
+      The Curated Ecosystem of SaaS Solutions &amp; Open-Source Shipping Infrastructure
+    </text>
+  </g>
+</svg>
